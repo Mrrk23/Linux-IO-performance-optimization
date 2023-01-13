@@ -4,7 +4,7 @@
 
 The goal of this final project to understand and optimize disk I/O performance by experimenting with different file sizes, block sizes, and system calls. The project is divided into three main parts:
 
-1. Writing a program that can read and write a file from disk using the standard C/C++ library's _ **open** _, _ **read** _, _ **write** _, and _ **close** _ functions, with parameters for the file name, file size, and block size.
+1. Writing a program that can read and write a file from disk using the standard C/C++ library's **open**, **read**, **write**, and **close** functions, with parameters for the file name, file size, and block size.
 2. Finding a file size that can be read in a "reasonable" time (between 5 and 15 seconds) by starting with a small file size and doubling it until the desired time range is reached.
 3. Measuring and reporting performance in MiB/s (megabytes per second) and creating a graph that shows performance as various parameters are changed. Extra credit may be earned for trying to make the program work on xv6, but the largest file size that xv6 can handle is 70KB, so it will not be suitable for the full project requirements.
 
@@ -14,7 +14,7 @@ The environment for this project is real Linux (we recommend using a recent Ubun
 
 **Part 1: Basics**
 
-In this part, you will write a program that can read and write a file from disk using the standard C/C++ library's _ **open** _, _ **read** _, _ **write** _, and _ **close** _ functions. The program should have the following parameters:
+In this part, you will write a program that can read and write a file from disk using the standard C/C++ library's **open**, **read**, **write**, and **close** functions. The program should have the following parameters:
 
 - The file name
 - The size of the file (for writing)
